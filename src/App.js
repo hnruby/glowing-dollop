@@ -1,10 +1,9 @@
-import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import JobDetail from "./pages/JobDetail";
+// import JobDetail from "./pages/JobDetail";
 
-import RequireAuth from "./auth/RequireAuth";
+// import RequireAuth from "./auth/RequireAuth";
 import Login from "./pages/Login";
 import LoginModal from "./components/LoginModal";
 import JobDetailModal from "./components/JobDetailModal";
@@ -34,7 +33,7 @@ function App() {
           path="*"
           element={
             <main>
-              <p>There's nothing here!</p>
+              <p>page not found!</p>
             </main>
           }
         />

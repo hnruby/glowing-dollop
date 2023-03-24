@@ -4,7 +4,7 @@ async function getJobs(page, q = null) {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve();
-    }, 100);
+    }, 1000);
   });
 
   await promise;
